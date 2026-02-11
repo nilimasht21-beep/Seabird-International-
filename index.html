@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+    <meta charset="UTF-8">
+    <title>Seabird International College</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+<div class="page-wrapper">
+<!-- Advertisement Popup -->
+<div id="popupAd" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closeAd()">&times;</span>
+        <h2>🎓 Admission Open!</h2>
+        <p>Apply now for 2026 session</p>
+        <button onclick="openForm()">Apply Now</button>
+    </div>
+</div>
+
+<!-- Admission Form -->
+<div id="admissionForm" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closeForm()">&times;</span>
+        <h2>Admission Form</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required><br><br>
+            <input type="email" placeholder="Email Address" required><br><br>
+            <input type="text" placeholder="Phone Number" required><br><br>
+
+            <select required>
+                <option value="">Select Faculty</option>
+                <option>Science</option>
+                <option>Management</option>
+                <option>Humanities</option>
+            </select><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+    
+<header>
+    <h1 font="">Seabird International SS / College</h1>
+    <p><em>An Introduction Website</em></p>
+        <img src="/logooo.png" class="img-thumbnail" alt="c:\Users\DELL\Pictures\logo-1.png">
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+  <div class="container-fluid">
+
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold" href="#">Seabird</a>
+
+    <!-- Mobile toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="#facilities">Facilities</a></li>
+        <li class="nav-item"><a class="nav-link" href="#eca">ECA</a></li>
+        <li class="nav-item"><a class="nav-link" href="#sports">Sports</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Search bar -->
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<section id="home">
+    <h2>Welcome to Seabird International</h2>
+    <p>
+        Seabird International College warmly welcomes students seeking quality education.
+        This website provides essential information about academic programs, facilities,
+        extracurricular activities, and contact details.
+    </p>
+    <img src="/504297465_17899749387217003_7502598229213024585_n.jpg" class="img-thumbnail" alt="/504297465_17899749387217003_7502598229213024585_n.jpg">
+</section>
+
+<section id="about">
+    <h2>About Our College</h2>
+    <h3>Education for Leadership and Development</h3>
+
+    <table class="info-table">
+        <tr>
+            <th>Category</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Teachers</td>
+            <td>80+</td>
+        </tr>
+        <tr>
+            <td>Students</td>
+            <td>1500+</td>
+        </tr>
+        <tr>
+            <td>Laboratories</td>
+            <td>20</td>
+        </tr>
+    </table>
+
+    <p>
+        Seabird International College is an academic institution established to nurture
+        talented and disciplined students. Located in Nepal, the college offers higher
+        secondary education with emphasis on academic excellence and character development.
+    </p>
+
+    <p>
+        The college focuses on developing scientific, managerial, and pedagogical skills
+        through continuous guidance and hard work.
+    </p>
+</section>
+
+<section id="courses">
+    <h2>Courses Offered</h2>
+    <p>🔬 Science (Physics, Chemistry, Biology / Mathematics)</p>
+    <p>📊 Management</p>
+    <p>📚 Humanities</p>
+    <img src="/513822429_17900847873217003_6253399316969063461_n.jpg" class="img-thumbnail" alt="c:\Users\DELL\Pictures\seabird_files\513822429_17900847873217003_6253399316969063461_n.jpg">
+</section>
+
+<section id="facilities">
+    <h2>Facilities</h2>
+    <p>📖 Library</p>
+    <p>💻 Computer Laboratory</p>
+    <p>⚗️ Science Laboratories</p>
+    <p>🏨 Hotel Management Laboratory</p>
+    <p>🏫 Smart Classrooms</p>
+    <p>🏟️ Sports Ground</p>
+</section>
+
+<!-- Photo Gallery -->
+<section id="gallery">
+    <h2>Photo Gallery</h2>
+    <p>Click an image to enlarge.</p>
+    <div class="gallery-grid">
+        <div class="gallery-item"><img src="505496001_17899284522217003_5297465575651945727_n.jpg" alt="Photo 1"></div>
+        <div class="gallery-item"><img src="510929173_18049665011416061_4374591789708379619_n.jpg" alt="Photo 2"></div>
+        <div class="gallery-item"><img src="computer lab.jpg" alt="Photo 3"></div>
+        <div class="gallery-item"><img src="entrance exam1.jpg" alt="Photo 4"></div>
+        <div class="gallery-item"><img src="game zone1.jpg" alt="Photo 5"></div>
+        <div class="gallery-item"><img src="add.jpg" alt="Photo 6"></div>
+    </div>
+    <div id="lightbox" class="lightbox" style="display:none;">
+        <span class="lb-close">&times;</span>
+        <img class="lb-image" src="" alt="">
+        <div class="lb-caption"></div>
+        <button class="lb-prev" aria-label="Previous">&lt;</button>
+        <button class="lb-next" aria-label="Next">&gt;</button>
+    </div>
+</section>
+
+<section id="eca">
+    <h2>Extra-Curricular Activities (ECA)</h2>
+    <p>
+        The college provides ECA programs to enhance leadership, creativity,
+        discipline, and technical skills among students.
+    </p>
+    <p>🧘 Meditation</p>
+    <p>💡 IT Presentations</p>
+</section>
+
+<section id="sports">
+    <h2>Sports Activities</h2>
+    <p>
+        Seabird International College promotes sportsmanship and physical fitness
+        for both male and female students.
+    </p>
+
+    <ul>
+        <li>Pickle Ball</li>
+        <li>Table Tennis</li>
+        <li>Basketball</li>
+        <li>Volleyball</li>
+        <li>Badminton</li>
+        <li>Chess</li>
+    </ul>
+</section>
+
+<section id="contact">
+     <h2>Contact Us</h2>
+     <p><strong>📍 Address:</strong> Madhyapur Thimi, Nepal</p>
+     <p><strong>📞 Phone:</strong> 9808642504</p>
+     <p><strong>📧 Email:</strong> nilimasht21@gmail.com</p> 
+</section>
+
+<section id="contact" width="100%">
+    <h2>Contact Us</h2>
+      <!-- modify this form HTML and place wherever you want your form -->
+    <form
+      action="https://formspree.io/f/xwvqzbkj"
+      method="POST"
+>
+     <label>
+     Your email:
+     <input type="email" name="email">
+     </label>
+     <label>
+     Your message:
+     <textarea name="message"></textarea>
+     </label>
+     <!-- your other form fields go here -->
+     <button type="submit">Send</button>
+</form>
+</section>
+
+<script>
+/* Show advertisement on page load */
+
+window.onload = function () {
+    document.getElementById("popupAd").style.display = "block";
+};
+
+/* Close advertisement */
+function closeAd() {
+    document.getElementById("popupAd").style.display = "none";
+}
+
+/* Open admission form */
+function openForm() {
+    document.getElementById("popupAd").style.display = "none";
+    document.getElementById("admissionForm").style.display = "block";
+}
+
+/* Close admission form */
+function closeForm() {
+    document.getElementById("admissionForm").style.display = "none";
+}
+</script>
+
+<footer>
+    <p>© Seabird International College</p>
+    <p>Prepared by Nilima Shrestha | Class 11 Project</p>
+</footer>
+
+</div>
+</body>
+</html>
